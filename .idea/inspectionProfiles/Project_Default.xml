@@ -1,0 +1,15 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="ExtractMethodRecommender" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="minLength" value="759" />
+    </inspection_tool>
+    <inspection_tool class="NewGroovyClassNamingConvention" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES">
+      <extension name="JUnitTestClassNamingConvention" enabled="true">
+        <option name="m_regex" value="[A-Z][A-Za-z\d]*?|Test[A-Z][A-Za-z\d]*|IT(.*)|(.*)IT(Case)?" />
+        <option name="m_minLength" value="5" />
+        <option name="m_maxLength" value="255" />
+      </extension>
+    </inspection_tool>
+  </profile>
+</component>
